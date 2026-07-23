@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://liuxiaohang666888.github.io/joplin-junk/sitemap.xml
