@@ -1,0 +1,30 @@
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;color:#1a1a1a;line-height:1.6}
+.wrap{max-width:960px;margin:0 auto;padding:0 16px}
+header{background:#0f766e;color:#fff;padding:14px 0}
+header .wrap{display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:8px}
+header a{color:#fff;text-decoration:none;font-weight:700}
+.phone{background:#f59e0b;color:#1a1a1a;padding:8px 14px;border-radius:8px;font-weight:800;white-space:nowrap}
+.hero{background:linear-gradient(135deg,#134e4a,#0f766e);color:#fff;padding:60px 0;text-align:center}
+.hero h1{font-size:34px;line-height:1.2;margin-bottom:14px}
+.hero p{font-size:18px;opacity:.92;margin-bottom:22px}
+.btn{display:inline-block;background:#f59e0b;color:#1a1a1a;font-weight:800;padding:14px 28px;border-radius:10px;text-decoration:none;font-size:17px}
+.benefits{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;padding:36px 0}
+.benefit{background:#f1f5f9;border-radius:12px;padding:18px;text-align:center}
+.benefit b{display:block;font-size:16px;margin-bottom:4px;color:#0f766e}
+.section{padding:36px 0}
+.section h2{font-size:26px;margin-bottom:16px;color:#0f766e}
+.services{display:grid;grid-template-columns:repeat(2,1fr);gap:12px}
+.services div{background:#fff;border:1px solid #e2e8f0;border-radius:10px;padding:14px}
+.services a{color:#0f766e;text-decoration:none;font-weight:600}
+.area{background:#f8fafc;border-radius:12px;padding:18px;margin-top:14px}
+form{background:#fff;border:1px solid #e2e8f0;border-radius:14px;padding:22px;max-width:480px;margin:0 auto}
+form label{display:block;font-size:14px;font-weight:600;margin:10px 0 4px}
+form input,form select,form textarea{width:100%;padding:11px;border:1px solid #cbd5e1;border-radius:8px;font-size:15px}
+form button{width:100%;margin-top:16px;background:#0f766e;color:#fff;border:0;padding:14px;border-radius:10px;font-weight:800;font-size:16px;cursor:pointer}
+.note{text-align:center;font-size:13px;color:#64748b;margin-top:10px}
+footer{background:#0f172a;color:#cbd5e1;padding:24px 0;font-size:13px;text-align:center}
+.faq{margin-top:14px}
+.faq details{border:1px solid #e2e8f0;border-radius:10px;padding:12px 14px;margin-bottom:8px;background:#fff}
+.faq summary{font-weight:600;cursor:pointer;color:#0f766e}
+@media(max-width:640px){.benefits,.services{grid-template-columns:1fr}.hero h1{font-size:27px}}
